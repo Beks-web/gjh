@@ -1,0 +1,46 @@
+.cart {
+  border: 2px solid;
+  border-radius: 10px;
+  background-color: aliceblue;
+  border-color: pink;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 10px;
+}
+body {
+  background-color: pink;
+}
+img {
+  width: 50px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+h2,
+h4 {
+  display: inline;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+
+  margin: 20px;
+}
+.button button {
+  width: 200px;
+  color: rgb(255, 255, 255);
+  background-color: pink;
+  border-color: aqua;
+  border-radius: 10px;
+}
+.cart h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-right: 10px;
+}
+.all {
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+}
